@@ -176,7 +176,11 @@ address {
   background-size: contain;
   padding: 188px 0 188px;
   text-align: center;
+  background-image: url(/images/hero\ image.jpg);
+  background-position: center;
+  justify-content: center;
 }
+
 .hero-banner-title {
   font-size: 56px;
   line-height: 1.07;
@@ -263,7 +267,6 @@ address {
   display: flex;
   gap: 24px;
   justify-content: space-between;
-  padding-bottom: 59px;
 }
 
 .team-list-item {
@@ -281,7 +284,6 @@ address {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -387,3 +389,11 @@ address {
   color: #f4f4fd;
 }
 /* footer section end */
+
+.benefits-svg {
+  background-color: #f4f4fd;
+  /* border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px; */
+}
