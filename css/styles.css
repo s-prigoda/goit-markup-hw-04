@@ -323,7 +323,8 @@ address {
   text-align: center;
 }
 
-.team-container-soc {
+.team-container {
+  padding: 32px 0;
 }
 
 .team-soc-list {
@@ -336,6 +337,8 @@ address {
 }
 
 .team-soc-list-item {
+  width: 40px;
+  height: 40px;
 }
 
 .icons {
