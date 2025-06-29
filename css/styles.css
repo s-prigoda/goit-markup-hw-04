@@ -173,7 +173,7 @@ address {
 /* hero section start */
 .hero-banner {
   background-color: #2e2f42;
-  background-size: 1440px;
+  background-size: cover;
   padding: 188px 0 188px;
   text-align: center;
   background-image: linear-gradient(
@@ -220,6 +220,17 @@ address {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.benefits-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -312,9 +323,22 @@ address {
   text-align: center;
 }
 
-.team-container {
+.team-container-soc {
+}
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 32px 0;
   text-align: center;
+  gap: 24px;
+}
+
+.team-soc-list-item {
+}
+
+.icons {
 }
 
 /* team section end */
@@ -394,12 +418,13 @@ address {
 .footer-logo-span {
   color: #f4f4fd;
 }
-/* footer section end */
 
-.benefits-svg {
-  background-color: #f4f4fd;
-  /* border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px; */
+.footer-soc-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
+
+/* footer section end */
