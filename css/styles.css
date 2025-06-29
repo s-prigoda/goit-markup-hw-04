@@ -173,12 +173,18 @@ address {
 /* hero section start */
 .hero-banner {
   background-color: #2e2f42;
-  background-size: contain;
+  background-size: 1440px;
   padding: 188px 0 188px;
   text-align: center;
-  background-image: url(/images/hero\ image.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
   background-position: center;
-  justify-content: center;
+  margin: auto;
 }
 
 .hero-banner-title {
