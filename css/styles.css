@@ -327,7 +327,7 @@ address {
   padding: 32px 0;
 }
 
-.team-soc-list {
+.soc-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,12 +336,20 @@ address {
   gap: 24px;
 }
 
-.team-soc-list-item {
-  width: 40px;
-  height: 40px;
+.soc-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 43px;
 }
 
-.icons {
+.soc-list-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  fill: #f4f4fd;
 }
 
 /* team section end */
@@ -422,12 +430,26 @@ address {
   color: #f4f4fd;
 }
 
+.footer-container {
+  display: inline-block;
+  justify-content: center;
+}
+
 .footer-soc-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
 }
 
 /* footer section end */
