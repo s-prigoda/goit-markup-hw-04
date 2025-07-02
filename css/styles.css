@@ -68,6 +68,10 @@ address {
   color: #404bbf;
 }
 
+.header-list-item-link.line::after {
+  opacity: 1;
+}
+
 .hero-banner-button:hover {
   background-color: #404bbf;
 }
@@ -99,8 +103,6 @@ address {
 .header-navigation {
   display: flex;
   align-items: center;
-  position: relative;
-  color: #404bbf;
 }
 
 .header-navigation-logo {
@@ -114,18 +116,6 @@ address {
   color: #4d5ae5;
   padding: 24px 0;
   margin-right: 76px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-navigation-logo::after {
-  content: ;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 
 .header-list {
@@ -146,6 +136,21 @@ address {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list-item-link::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* address */
