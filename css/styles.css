@@ -453,8 +453,9 @@ address {
 }
 
 .footer-container {
-  /* display: flex;
-  align-items: baseline; */
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .footer-soc-text {
@@ -468,6 +469,8 @@ address {
 
 .footer-soc-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
 }
 
